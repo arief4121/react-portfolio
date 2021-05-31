@@ -8,7 +8,7 @@ function Hero() {
     return (
         <>
             <Navbar/>
-            <main className="my-2 px-8 lg:px-20 py-20 content-center flex flex-col h-screen lg:flex-row lg:mx-60">
+            <main className="mb-48 lg:my-2 px-8 lg:px-20 py-20 content-center flex flex-col h-screen lg:flex-row lg:mx-60">
                 <div className="py-2 lg:py-32 px-2">
                     <div className="hero-text">
                         <h2 className="text-3xl font-medium"> Hai saya <span className="text-pink-500 hover:text-pink-600"><a href="#a">Muhammad Arief</a></span></h2>
@@ -17,8 +17,8 @@ function Hero() {
                     </div>
                     <a href="#about"><Button/></a>
                 </div>
-                <div className="px-16 lg:px-2">
-                    <img src="/img/Image.svg" alt="img" className="py-11 h-96 lg:pl-48 absolute" />
+                <div className="px-16 lg:px-2 my-10 lg:my-0">
+                    <img src="/img/Image.svg" alt="img" className="py-11 h-96 lg:pl-48 lg:absolute" />
                 </div>
             </main>   
         </>
